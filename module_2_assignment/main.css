@@ -38,6 +38,7 @@ div{
     margin-right: 10px;
     overflow: hidden;
     padding-bottom: 4px;
+    background-color: #fffef6;
 }
 
 .item{
@@ -55,6 +56,19 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#chicken{
+    background-color: #ffd7f6;
+}
+
+#beef{
+    background-color: #d7fffb;
+}
+
+#sushi{
+    background-color: #d7ffe7;
+}
+
 
 
 
