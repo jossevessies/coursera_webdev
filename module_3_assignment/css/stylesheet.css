@@ -1,5 +1,34 @@
+
+@font-face {
+    font-family: Dirty;
+    src: url(../Dirtyline\ 36daysoftype\ 2022.otf);
+    }
+    
+    
+@font-face {
+    font-family: Apfel;
+    src: url(../ApfelGrotezk-Regular.woff);
+}
+
+body{
+    font-family: Apfel;
+}
+
+#Chicken{
+    background-color: #ffd7f6;
+}
+
+#Beef{
+    background-color: #d7fffb;
+}
+
+#Sushi{
+    background-color: #d7ffe7;
+}
+    
+    
 #header-nav{
-    background-color: gray;
+    background-color: #ebe7c5;
 }
 
 .container{
@@ -12,6 +41,7 @@
     --bs-gutter-x: 0rem;*/
 }
 
+
 .navbar-nav{
     background-color:rgba(255, 255, 255, 0.55);
 }
@@ -20,8 +50,16 @@
     --bs-navbar-padding-y: 0rem;
 }
 
+#BRAND{
+    font-family: Dirty;
+}
+
 .nav-link{
     text-align: center;
+}
+
+.navbar-collapse{
+    border-bottom: 1px solid black;
 }
 
 
@@ -35,13 +73,21 @@
 }
 
 hr{
-    margin: 0.01rem 0;
+    margin: 0.01rem 20px;
+    opacity:1;
 }
 
 .h2{
     margin-top: 10px;
+    font-family: Dirty;
 }
 
 p{
     font-size: 0.9rem
+}
+
+#HEADING{
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+    border: 1px solid black;
 }
