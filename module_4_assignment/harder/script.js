@@ -36,6 +36,8 @@ WARNING!!! WARNING!!!
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
+var colors = ['deeppink', 'greenyellow', 'yellow', 'dodgerblue', 'darkorange', 'rebeccapurple', 'black', 'red', 'black', 'green'];
+
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
@@ -61,9 +63,9 @@ for (i in names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter == 'J' || firstLetter == 'j') {
-    window.beySpeaker.speak(names[i]);
+    window.beySpeaker.speak(names[i], colors[i]);
     //console.log("goodbey");
   } else {
-    window.helloSpeaker.speak(names[i]);
+    window.helloSpeaker.speak(names[i], colors[i]);
   }
 }

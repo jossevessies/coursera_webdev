@@ -15,13 +15,13 @@
 (function(window){
 
   var beySpeaker = {}
-  beySpeaker.speakWord = "Good Bye";
+  beySpeaker.speakWord = "%c Good Bye";
 
   // STEP 8: Rewrite the 'speak' function such that it is attached to the
   // byeSpeaker object instead of being a standalone function.
   // See Lecture 52, part 2
-  beySpeaker.speak = function(i) {
-    console.log(beySpeaker.speakWord + " " + i);
+  beySpeaker.speak = function(i, color) {
+    console.log(beySpeaker.speakWord + " " + i, `background: #000; color: ${color}`);
   }
 
   window.beySpeaker = beySpeaker;
